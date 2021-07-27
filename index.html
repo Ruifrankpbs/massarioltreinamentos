@@ -17,6 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!--swiper styles-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header id="header">
@@ -39,6 +44,7 @@
       </nav>
     </header>
     <main>
+      <!--Home-->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -53,12 +59,19 @@
               Empresa homologada junto à Vale,para ministrar treinamentos de
               introdutório e operacionais à Empresas Prestadoras de Serviços.
             </p>
-            <a class="button" href="#">Fazer Cotação</a>
+            <a
+              class="button"
+              href="https://api.whatsapp.com/send?phone=+5594991830408&text=Olá! Somos a Massariol Treinamentos, Deixe sua mensagem e responderemos assim que possivel."
+              target="_blank"
+              >Fazer Cotação</a
+            >
           </div>
         </div>
       </section>
 
       <div class="divider-1"></div>
+
+      <!--About-->
 
       <section class="section" id="about">
         <div class="container grid">
@@ -96,6 +109,8 @@
       </section>
 
       <div class="divider-2"></div>
+
+      <!--Services-->
 
       <section class="section" id="services">
         <div class="container grid">
@@ -173,7 +188,125 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!--Testimonials-->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui.</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&quot;</span> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Maxime quia praesentium illum enim, in
+                    neque
+                  </p>
+                  <cite>
+                    <img
+                      src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                      alt="Foto homem qualquer"
+                    />
+                    Frank Milton
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&quot;</span> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Maxime quia praesentium illum enim, in
+                    neque
+                  </p>
+                  <cite>
+                    <img
+                      src="https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                      alt=""
+                    />
+                    Silmaria Medenson
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&quot;</span> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Maxime quia praesentium illum enim, in
+                    neque
+                  </p>
+                  <cite>
+                    <img
+                      src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                      alt="Foto de um homem"
+                    />
+                    Brandom Campbel
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--Contacts-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Massariol Treinamentos, queremos tirar
+              todas as suas dúvidas, ouvir suas sugestões e críticas.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5594991830408&text=Olá! Somos a Massariol Treinamentos, Deixe sua mensagem e responderemos assim que possivel."
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>94 99183-0408</li>
+              <li>
+                <i class="icon-location"></i>Rua Araguaia, 402 - Bairro da Paz -
+                Parauapebas-PA - CEP 68515-000
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="icon-facebook"></i>@massarioltreinamentosoficial
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="icon-instagram"></i>@massarioltreinamentosoficial
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="icon-linkedin2"></i>@massarioltreinamentosoficial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!--Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="main.js"></script>
   </body>
